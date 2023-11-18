@@ -20,7 +20,7 @@ export default function Wetherinfo(props) {
               alt="weather-icon"
               className="weather-info-icon mt-1"
             />
-            <WeatherTemperature celsius={props.data.temperature} />
+            <WeatherTemperature fahrenheit={props.data.temperature} />
           </span>
         </div>
         <div className="col-6">
